@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body{    
+    height: 100%;
+    width: 100%;
+}
+.navigation-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation-bar img{
+    padding: 25px;
+    width: 176px;
+    height: 85px;
+    margin-right: 65px;
+    filter: invert(1);
+
+}
+.navigation-bar div ul{
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+    gap: 80px;
+}
+.navigation-bar div ul li{
+    color: black;
+    font-weight: 600;
+    font-style: italic;
+    list-style: none;
+
+}
+.navigation-bar div ul li:hover{
+    text-decoration: underline;
+     font-family: 'Courier New', Courier, monospace;
+
+}
+.navigation-bar button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    background-color: #0c0cd1;
+    border: 2px solid #0c0cd1;
+    text-align: center;
+    font: icon;
+    border-radius: 6px;
+    padding: 4px 15px;
+   }
+   .navigation-bar button:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    background-color: #d1930c;
+    border: 2px solid #d1930c;
+    text-align: center;
+    font: icon;
+    border-radius: 6px;
+    padding: 4px 15px;
+   }
+
+.bottom-contant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+.bottom-contant-left h1{
+    font-size: 40px;
+    margin-bottom: 24px;
+    font-weight: bold;
+    color: rgb(24, 24, 94);
+
+}
+.bottom-contant-left h1 span{
+    font-size: 40px;
+    margin-bottom: 24px;
+    font-weight: bold;
+    color: rgb(86, 86, 205);
+
+}
+
+.bottom-contant-left p{
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding-right: 35px;
+}
+
+
+.bottom-contant-Right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-contant-left button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    background-color: #0c0cd1;
+    border: 2px solid #0c0cd1;
+    text-align: center;
+    font: icon;
+    border-radius: 12px;
+    padding: 10px 15px;
+   }
+
+   .bottom-contant-left button:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    background-color: #0cd133;
+    border: 2px solid #0cd120;
+    text-align: center;
+    font: icon;
+    border-radius: 12px;
+    padding: 10px 15px;
+   }
+
+.bottom-contant-Right img{
+    height: 120%;
+    width: 120%;
+}
